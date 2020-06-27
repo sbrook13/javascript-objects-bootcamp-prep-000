@@ -3,5 +3,5 @@ var playlist = {
   songTitle: "Moondance"
 };
 function updatePlaylist(targetObject,updatesObject){
-  return Object.assing({},playlist,{artistName:[updatesObject)
+  return Object.assing({},playlist,{artistName:['Justin Timberlake',...artistName]},{songTitle:[updatesObject)
 }

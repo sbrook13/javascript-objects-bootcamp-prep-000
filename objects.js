@@ -3,6 +3,7 @@ var playlist = {
   songTitle: "Moondance"
 };
 function updatePlaylist(list,a,b){
-  list.artistName =[a,...artistName]
+  list.artistName = [a,...artistName];
   list.songTitle = [b,...songTitle]
+  playlist
 }

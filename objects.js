@@ -2,8 +2,8 @@ var playlist = {
   artistName: "Van Morrison",
   songTitle: "Moondance"
 };
+var updatePlaylist
 function updatePlaylist(list,a,b){
-  list.artistName = [a,...artistName];
-  list.songTitle = [b,...songTitle]
-  list
+  list.artistName = [a,...list.artistName];
+  list.songTitle = [b,...list.songTitle]
 }

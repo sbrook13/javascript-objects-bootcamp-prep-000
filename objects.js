@@ -5,5 +5,5 @@ var playlist = {
 function updatePlaylist(list,a,b){
   list.artistName = [a,...artistName];
   list.songTitle = [b,...songTitle]
-  playlist
+  list
 }

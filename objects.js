@@ -8,5 +8,5 @@ function updatePlaylist(list,a,b){
 }
 function removeFromPlaylist(list,a){
   delete list.a;
-  return list
+  list
 }

@@ -1,4 +1,4 @@
 var playlist = {
-  artistName: "Van Morrison"
+  artistName: "Van Morrison",
   songTitle: "Moondance"
-}
+};

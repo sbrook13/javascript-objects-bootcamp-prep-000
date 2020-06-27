@@ -3,8 +3,9 @@ var playlist = {
   songTitle: "Moondance"
 };
 function updatePlaylist(list,a,b){
-  return Object.assign({},playlist,{artistName:[a,...artistName]},{songTitle:[b,...songTitle]})
-}
-playlist.artistName = function(a){
-  artistName:[a,...artistName];
+
+playlist.artistName = function(list,a,b){
+  playlist.artistName =[a,...artistName]
+  playlist.songTitle = [b,...songTitle]
+  
 }

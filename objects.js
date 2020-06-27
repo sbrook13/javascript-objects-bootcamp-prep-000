@@ -6,4 +6,5 @@ var updatePlaylist
 function updatePlaylist(list,a,b){
   list.artistName = [a,...list.artistName];
   list.songTitle = [b,...list.songTitle]
+  list
 }

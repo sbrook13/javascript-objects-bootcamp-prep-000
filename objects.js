@@ -1,3 +1,4 @@
 var playlist = {
-  first: ""
+  artistName: "Van Morrison"
+  songTitle:
 }

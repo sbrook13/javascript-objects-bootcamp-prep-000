@@ -1,5 +1,5 @@
 var playlist = {
-  artistName: "Van Morrison",
+  vanMorrison: "Van Morrison",
   songTitle: "Moondance"
 };
 function updatePlaylist(list,a,b){
